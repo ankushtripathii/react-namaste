@@ -8,10 +8,6 @@
     </div> 
 */}
 
-
-
-
-
 const parent = React.createElement("div", { id: "parent" }, [
     React.createElement("div", { id: "child" }, [React.createElement("h2", {}, "im tag h2"),
     React.createElement("h3", {}, "im tag h3")]),
@@ -21,8 +17,6 @@ const parent = React.createElement("div", { id: "parent" }, [
 
 
 
-
-
-console.log(parent);///it will not return the html , will return react object
+console.log(parent);///it will not return the HTML , will return react object
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(parent);
